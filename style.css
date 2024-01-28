@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost',sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index:1000 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background-color: #fff;
+   
+}
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+.navbar{
+    display: flex;
+    
+}
+.navbar a{
+    color: #2c2c2c;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.navbar a:hover{
+    color: #ee1c47;
+}
+section{
+    padding: 5% 10% ;
+}
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url('IMG/Banner.png');
+    background-position: center;
+    background-size: cover;
+
+} 
+.button1{
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #111;
+    padding: 12px 25px;
+}
+.button1:hover{
+    background-color: #000;
+    color: white ;
+}
+.center-text h2{
+    color: #111;
+    font-size: 35px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 800;}
+.featured-product{
+    background-color: #f4f8fc;
+}
+
+
+.products{
+    display: flex;
+    align-items: center;
+    gap: 10px;}
+  
+  
+
+.row img{
+    height: 200px;
+   
+    border-radius: 7%;
+ 
+   
+   
+}
+.row img:hover{
+    transform:scale(0.9) ;
+}
+h4{
+   text-decoration: line-through;
+}
+.row{ 
+   
+    border: 1px solid#b9d1e6;
+
+    text-align: center;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+    
+}
+h5{
+    font-size: 65px;
+}
+h1{
+ font-size: 40px;
+}
+.main-text p{
+    max-width: 250px;
+}
+h2 span{
+    color: #ee1c47;
+}
+.button2{
+display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 1px ;
+    padding: 8px 30px;
+    background-color:  #ac0123;
+    border-radius: 8px;
+   }
+   .more{ text-align: center;
+}
+.button2:hover{ background-color: #953f3f;
+color: #fff;
+}
+.brands1 h6{ text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #000000;}
+.brands1{
+    background-color: #f4f8fc;
+     
+
+}
+h6 span{
+   color: #ac0123;}
+
+
+.brands{
+    margin-left: 20px;
+   
+}
+.brands img{
+   
+    max-width: 300px;
+   max-height: 80px;
+margin-right: 80px;
+
+
+
+}
+
+.team-profile{
+    padding-top: 60px;
+   
+}
+.team-profile h1{
+    text-align: center;
+}
+.team-profile h2{
+    text-align: center;}
+.team-profile img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: relative;
+ align-items: center;
+ margin-left: 30px;
+}
+.member-row1 .column{
+    max-width: 250px;
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+    min-width: 250px;
+    gap: 300px;
+text-align:center;}
+  
+
+.member-row1{
+    text-align: center;
+}
+.about-main img{
+   
+    width: 100%;
+    height: 500px;
+}
+.about-us{
+    background-color: #b9d1e6;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    color: #292c35;
+    margin-top: -250px;
+    margin-bottom: 195px;
+   }
+  
+   
+   .about-content h3{
+    text-align: center;
+    font-size: 40px;
+  
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+
+   }
+   .about-content p{
+    color: #656060;
+    font-size: 20px;
+    word-spacing: 5px;
+   text-align: center;
+   max-width: 800px;
+   margin-left: 18%;
+   margin-top: 40px;
+   margin-bottom: 40px;
+    
+   }
+  .office-details{
+    font-size: 20px;
+    margin-left: 100px;
+    
+  }
+  .office-details p{margin-bottom: 10px;
+}
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("../img/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+#newsletter p span{
+    color: #ffbd27;
+}
+#newsletter form{
+    display: flex;
+    width: 100%;
+}
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0 ;
+    border-bottom-right-radius: 0 ;
+    border-top-left-radius: 0 ;
+    border-bottom-right-radius: 0 ;
+}
+#newsletter button{
+    background-color: #088178;
+    color: white;
+    white-space: nowrap;
+}
+#error_message{
+    color: rgb(255, 4, 4);
+  }
+
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+#contact-details .details{
+    width: 40%;
+}
+#contact-details .details span,
+#form-details form span{
+    font-size: 12px;
+    padding-left: 15px;
+}
+#contact-details .details h2,
+#form-details form h2
+{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+    padding-left: 15px;
+}
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px ;
+}
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+#contact-details .details li p{
+    margin: 0;
+}
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+#form-details{
+   display: flex;
+    max-width: 400px;
+   background-color: #e4e4e4;
+    border: 1px solid #e1e1e1;
+
+   
+    
+}
+
+#form-details form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+ 
+}
+#form-details form button{
+    background-color: #2166c0;
+    color: white;
+}
+.in-touch {
+    display: inline-block;
+    vertical-align: top; /* Aligns the divs to the top */
+min-width: 50%;
+ 
+}
+
+
